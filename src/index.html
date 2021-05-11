@@ -7,7 +7,7 @@
 <body>
     <div class="content">
         <header class="header">
-            <div class="container">
+            <div class="header-container">
                 <div class="logo"></div>
                 <nav>
                     <ul class="nav">
@@ -26,26 +26,122 @@
 
         <section class="section-main">
             <div class="container">
-                <img class="caseslogo" src="../images/cases.svg" alt="Cases">
-                <h2 class="title">Переходи на<br> <span>лучшее</span></h2>
-                <nav>
-                    <ul class="main">
-                        <li class="main-item"> <a class="main-link" href="">IPhone</a></li>
-                        <li class="main-item"> <a class="main-link" href="">AirPod</a></li>
-                        <li class="main-item"> <a class="main-link" href="">Mac</a></li>
-                    </ul>
-                </nav>
-                <a class="btn" href=""><img class="btn-arrow" src="../images/arrow-down.svg" alt=""></a>
+                    <div class="section-main__cases"> 
+                        <img  src="../images/cases.svg" alt="Cases">
+                    </div>
+                    <h2 class="section-main__title">Переходи на<br> <span>лучшее</span></h2>
+                    <nav>
+                        <ul class="section-main__main">
+                            <li class="section-main__main-item"> <a class="section-main__main-link" href="">IPhone</a></li>
+                            <li class="section-main__main-item"> <a class="section-main__main-link" href="">AirPod</a></li>
+                            <li class="section-main__main-item"> <a class="section-main__main-link" href="">Mac</a></li>
+                        </ul>
+                    </nav>
+                <a class="section-main__btn" href=""><img src="../images/arrow-down.svg" alt=""></a>
             </div>
 
         </section>
 
         <section class="section-bestsellers">
             <div class="container">
-                <div class="slider"></div>
+                <div class="section-bestsellers__text">
+                    <div class="section-bestsellers__bg"> </div>
+                    <h3 class="section-bestsellers__subtitle">все хотят иххх...</h3>
+                    <h2 class="section-bestsellers__title">Бестселлеры</h2>
+                </div>
+                <div class="bestproducts">
+                    <div class="bestproducts-card">
+                        <div class="bestproducts-card__img">
+                            <img  src="images/bestsellerscard.png" alt="">
+                        </div>
+                        <a class="bestproducts-card__link" href="#">подробнее</a>
+                    </div>
+                    <div class="bestproducts-card">
+                        <div class="bestproducts-card__img">
+                            <img  src="images/bestsellerscard.png" alt="">
+                        </div>
+                        <a class="bestproducts-card__link" href="#">подробнее</a>
+                    </div>
+                    <div class="bestproducts-card">
+                        <div class="bestproducts-card__img">
+                            <img  src="images/bestsellerscard.png" alt="">
+                        </div>
+                        <a class="bestproducts-card__link" href="#">подробнее</a>
+                    </div>               
+                    <div class="bestproducts-card">
+                        <div class="bestproducts-card__img">
+                            <img  src="images/bestsellerscard.png" alt="">
+                        </div>
+                        <a class="bestproducts-card__link" href="#">подробнее</a>
+                    </div>
+                    <div class="bestproducts-card">
+                        <div class="bestproducts-card__img">
+                            <img  src="images/bestsellerscard.png" alt="">
+                        </div>
+                        <a class="bestproducts-card__link" href="#">подробнее</a>
+                    </div>
+                </div>
             </div>
         </section>
-        aaaa
+
+        <section class="section-category">
+            <div class="container">
+                <div class="section-category__list">
+
+                    <div class="section-category__item item-1">
+                        <div class="section-category__item--image">
+                            <img src="./images/case.png" alt="">
+                        </div>
+                        <div class="section-category__item--content">
+                            <div class="section-category__item--title">
+                                iPhone <br>
+                                <span>Чехлы</span>
+                            </div>
+                            <a class="section-category__item--btn bestproducts-card__link">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="section-category__item item-2">
+                        <div class="section-category__item--image">
+                            <img src="./images/pods.png" alt="">
+                        </div>
+                        <div class="section-category__item--content">
+                            <div class="section-category__item--title">
+                                AirPods 
+                                <span>Чехлы</span>
+                            </div>
+                            <a class="section-category__item--btn bestproducts-card__link">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="section-category__item item-3">
+                        <div class="section-category__item--image">
+                            <img src="./images/mac.png" alt="">
+                        </div>
+                        <div class="section-category__item--content">
+                            <div class="section-category__item--title">
+                                MacBook <br>
+                                <span>Чехлы</span>
+                            </div>
+                            <a class="section-category__item--btn bestproducts-card__link">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="section-category__item item-4">
+                        <div class="section-category__item--image">
+                            <!-- <img src="./images/custom.png" alt=""> -->
+                        </div>
+                        <div class="section-category__item--content">
+                            <div class="section-category__item--title">
+                                Кастом <br> ателье <br>
+                                 <span>Забрендируй свой чехол</span>
+                            </div>
+                            <a class="section-category__item--btn bestproducts-card__link">подробнее</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
         <footer></footer>
     </div>
     //= templates/scripts.html
